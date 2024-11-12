@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Modelo_01.master.cs" Inherits="master_01.Modelo_01" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Estilos/Style1.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header con Navbar -->
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <a href="WebForm1.aspx" class="nav-link">Mantenimiento</a>
+                    <a href="WebForm2.aspx" class="nav-link">Consultar</a>
+                    <a href="WebForm3.aspx" class="nav-link">Exportar</a>
+                </div>
+            </nav>
+            <hr />
+        </header>
+
+        <!-- Slider -->
+        <main>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </main>
+
+        <!-- Footer con Contacto -->
+        <footer>
+            <h3>&copy; 2024</h3>
+            <div class="contact-info">
+                <a href="mailto:kimberlyeliene28@gmail.com" class="contact-link">📧 Correo</a>
+                <a href="https://wa.me/917361748" class="contact-link">📱 WhatsApp</a>
+                <a href="https://github.com/KimberlyA28" target="_blank" class="contact-link">💻 GitHub</a>
+            </div>
+        </footer>
+    </form>
+    <script src="js/slider.js"></script>
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>

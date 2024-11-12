@@ -1,0 +1,40 @@
+﻿/* Estilo personalizado para la página de consulta de usuarios */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.gridview-container {
+    margin-top: 20px;
+}
+
+/* Estilo adicional para las celdas del GridView */
+th, td {
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+}
+
+/* Estilos de fecha */
+input[type="date"] {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    font-family: 'Arial', sans-serif;
+}
