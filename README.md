@@ -12,7 +12,7 @@ Este proyecto consiste en una aplicación web que permite gestionar registros de
 2. **Página de Consulta**  
    Muestra una lista de los registros de mantenimiento almacenados en la base de datos. Los usuarios pueden filtrar y consultar información sobre los mantenimientos previos.
 
-   ![Consultar](img/consultar.png)
+   ![Consultar](img/consulta.png)
 
 3. **Página de Exportación a PDF**  
    Permite a los usuarios seleccionar y exportar los datos consultados en formato PDF. Esta funcionalidad es útil para crear informes o guardar los registros para uso futuro.
